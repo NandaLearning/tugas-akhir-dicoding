@@ -1,0 +1,259 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+* {
+    overflow-x: hidden;
+}
+
+.container-navbar {
+    width: 100%;
+    background-color: black;
+    height: 70px;
+    display: flex;
+    align-items: center; 
+    justify-content: space-between; 
+}
+
+.brand {
+    color: white;
+    margin-left: 15px;
+}
+
+.brand a {
+    text-decoration: none;
+    color: white;
+}
+
+.brand a:hover {
+    color: skyblue;
+    transition: 0.3s;
+}
+
+.ul {
+    display: flex;
+    color: white;
+    margin-right: 30px;
+}
+
+li a{
+    text-decoration: none;
+    color: white;
+    margin-right: 20px;
+}
+
+li a:hover{
+    color: skyblue;
+    transition: 0.3s;
+}
+
+
+.container-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-content {
+    flex: 1;
+    margin-left: 20px; 
+    margin-top: 20px;
+}
+
+.profile-aside {
+    width: 10%; 
+    margin-right: 20px;
+}
+
+.aside {
+    width: 400px;
+    margin-right: 20px;
+    margin-top: 30px;
+    border: 3px solid #000;
+    border-radius: 10px; 
+    height: 500px;
+}
+
+.about{
+    margin-left: 20px;
+}
+
+.p{
+    margin-left: 20px;
+}
+
+
+#foto{
+    width: 250px;
+    height: 250px;
+    margin-left: 20%;
+    margin-top: 20px;
+    border-radius: 5px;
+
+}
+
+.tombol{
+    background-color: white;
+    border-radius: 5px;
+    font-size: larger;
+    margin-left: 37%;
+    margin-top: 10px;
+}
+
+.tombol:hover{
+    background-color: skyblue;
+    transition: 0.3s;
+}
+
+
+.container-artikel{
+    margin-left: 10%;
+}
+
+.sambutan{
+    font-size: xx-large;
+    font-family: sans-serif;
+    margin-top: 150px;
+    margin-left: 30px;
+}
+
+.span-sambutan a{
+    text-decoration: none;
+    color: black;
+}
+
+.span-sambutan a:hover{
+    color: skyblue;
+    transition: 0.3s;
+}
+
+.p-sambutan{
+    margin-left: 27%;
+
+}
+
+.cek h1{
+    margin-left: 10%;
+}
+
+.cek h1 a{
+    text-decoration: none;
+    color: black;
+}
+
+.cek {
+    border: 2px solid #000;
+    width: 170px;
+    margin-left: 35%;
+}
+
+
+.cek:hover{
+    background-color: skyblue;
+    transition: 0.3s;
+
+}
+
+.tech-container h1{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    margin-top: 200px;
+}
+
+.gambar-teknologi{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#html{
+    width: 300px;
+    margin-top: 10px;
+
+}
+
+#css{
+    width: 300px;
+
+}
+
+.tombol a{
+    text-decoration: none;
+    color: black;
+}
+
+#html:hover, #css:hover {
+    transform: translateY(-5px); 
+    transition: transform 0.2s; 
+}
+
+.container-footer {
+    width: 100%;
+    height: 60px;
+    background-color: black;
+    color: white;
+    display: flex;
+    margin-top: 50px;
+}
+
+
+.brand-footer{
+    margin-left: 10px;
+}
+
+.brand-footer a{
+    text-decoration: none;
+    color: white;
+}
+
+.brand-footer a:hover{
+    color: skyblue;
+    transition: 0.3s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 768px) {
+    .container-content {
+        flex-direction: column; 
+    }
+
+    .aside {
+        width: 100%; 
+        margin-top: 20px; 
+    }
+
+    .cek{
+        margin-left: 100px;
+    }
+
+    .p-sambutan{
+        margin-left: 60px;
+    }
+}
+
+
